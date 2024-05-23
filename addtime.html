@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">    
+    <link rel="stylesheet" href="addtime.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-white shadow p-3 mb-5 ">
+                <div class="container-fluid"  style="box-shadow: 0 2px 4px rgba(0,0,0,0.1);  position: relative; height: 48px; width:100%; padding-top: 10px;">
+                    <span ><img src="logo.png" alt="logo of EG" width="20px" style="margin-right: 10px;"> Legal Solution</span>
+                </div>
+                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-dark min-vh-100" >
+                    
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start " id="menu">
+                        <li class="nav-item">
+                            <a href="home.html" class="nav-link align-middle px-0">
+                                <i class="bi bi-house-door link-dark"></i><span class="ms-3 d-none d-sm-inline text-dark">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="addtime.html" class="nav-link align-middle px-0">
+                                <i class="bi bi-plus-circle-fill link-dark"></i><span class="ms-3 d-none d-sm-inline text-dark"><b>Register Time</b></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="calendarview.html" class="nav-link px-0 align-middle">
+                                <i class="bi bi-calendar4 link-dark"></i> <span class="ms-3 d-none d-sm-inline text-dark">Calendar</span></a>
+                        </li>
+                        <li>
+                            <a href="graph.html" class="nav-link px-0 align-middle">
+                                <i class="bi bi-bar-chart link-dark"></i> <span class="ms-3 d-none d-sm-inline text-dark">Overview</span></a>
+                        </li>
+                    </ul>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start " id="menu">
+                        <li class="nav-item">
+                            <a href="noti.html" class="nav-link align-middle px-0">
+                                <i class="bi bi-bell-fill link-dark"></i> <span class="ms-3 d-none d-sm-inline text-dark">Notifications<sup>3</sup></span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="user.html" class="nav-link align-middle px-0">
+                                <i class="bi bi-person-circle link-dark"></i><span class="ms-3 d-none d-sm-inline text-dark">Camile Jensen</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <hr>
+                </div>
+            </div>
+            
+            <div class="col py-3" style="background-color: #F9FAFB;">
+                
+                    <div class="formo" >
+                        <form>
+                            <div class="top">
+                            <h5 style="font-size: 16px; margin-top: 32px; text-align: center;">Today&ensp;<i class="bi bi-caret-down-fill"></i>
+                            <span class="bin"><i class="bi bi-trash3-fill"></i></span></h5>
+                        </div>
+                            <div class="mb-3" style="margin-top: 24px;">
+                                <label for="status" class="form-label text-secondary" >status</label>
+                                <p style="font-size: 16px;">&ensp;<b>Billable</b> <span class="folder" style="color: #4682B4;"><i class="bi bi-folder-plus" style="margin-top: 20px;">&ensp;Add to Registration</i></span></p>
+                                
+                            </div>
+                            
+                        
+                            <form class="row">
+                                <div class="container-fluid" style="margin-top: 32px; " >
+                                    <div class="row">
+                                <div class="col-4">
+                                  <label for="inputEmail4" class="form-label text-secondary">From</label>
+                                  <input type="time" class="form-control shadow-sm" id="inputEmail4">
+                                </div>
+                                <div class="col-4">
+                                  <label for="inputPassword4" class="form-label text-secondary">To</label>
+                                  <input type="time" class="form-control shadow-sm" id="inputPassword4">
+                                </div>
+                                <div class="col-4">
+                                    <label for="inputPassword4" class="form-label text-secondary">Duration</label>
+                                    <input type="time" class="form-control shadow-sm" id="inputPassword4">
+                                  </div>
+                            </div>
+                        </div>
+                        
+                                <div class="col-12">
+                                  <label for="inputAddress" class="form-label text-secondary" style="margin-top: 32px;">Client Name</label>
+                                  <div class="input-group shadow-sm">
+                                  <input type="text" class="form-control text-dark" id="inputAddress" placeholder="Enter client name" style="border-right: 0;">
+                                  <span class="input-group-text bg-white"><i class="bi bi-x inout"></i></span>
+                                </div>
+                                </div>
+                            
+                                <div class="col-12">
+                                    <label for="inputcase" class="form-label text-secondary" style="margin-top: 32px;">Case Number</label>
+                                    <div class="input-group shadow-sm">
+                                    <input type="number" class="form-control text-dark" id="inputAddress" placeholder="Enter case number" style="border-right: 0;">
+                                    <span class="input-group-text bg-white"><i class="bi bi-x inout"></i></span>
+                                  </div>
+                                  </div>
+                                 
+                                  <div class="col-12">
+                                    <label for="inputAddress" class="form-label text-secondary" style="margin-top: 32px;">Case</label>
+                                    <div class="input-group shadow-sm">
+                                    <input type="text" class="form-control text-dark" id="inputAddress" placeholder="Enter case name" style="border-right: 0;">
+                                    <span class="input-group-text bg-white"><i class="bi bi-x inout"></i></span>
+                                  </div>
+                                  </div>
+                                  
+                                  <div class="col-12">
+                                    <label for="inputWork" class="form-label text-secondary" style="margin-top: 32px;">Type of Work</label>
+                                    <select id="inputWork" class="form-select text-secondary shadow-sm">
+                                      <option selected>Select the type of work</option>
+                                      <option value="1">One</option>
+                                      <option value="2">Two</option>
+                                      <option value="3">Three</option>
+                                    </select>
+                                  </div>
+                                  
+                                  <div class="col mb-3 textarea-container position-relative" style="margin-top: 32px;">
+                                    <span class="text-black-50 shadow-sm">Description</span>
+                                    <textarea class="form-control mt-1 shadow-sm" aria-label="Description" placeholder="Type in/Record the description" style="height: 200px;"></textarea>
+                                    <div class="position-absolute bottom-0 end-0 d-flex align-items-center justify-content-end">
+                                        <span class="text-secondary-lighter small mr-2 " style="margin-right: 10px;">Number of symbols 0/250</span>
+                                        <i class="bi bi-mic mic-icon text-lighter" style="margin-right: 10px;"></i>
+                                    </div>
+                                </div>
+                                  <button class="btn btn-primary" style="margin-top: 32px; background-color: #001F3F; width: 100%;" type="button"><i class="bi bi-plus-circle-fill"></i>&ensp;Register</button>
+                          </form>
+                    
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+</div>
+</div>
+
+
+      
+</body>
+</html>

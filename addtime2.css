@@ -1,0 +1,42 @@
+.heading {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.formo {
+  margin-left: 48px;
+  margin-right: 48px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bin {
+  position: absolute;
+  right: 62px;
+}
+
+status {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  border-left: 3px solid #A3CAE9;
+  font-family: "Montserrat", sans-serif;
+}
+
+.folder {
+  position: absolute;
+  right: 60px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container-fluid {
+  text-align: left;
+}
+
+.bi-mic {
+  border-radius: 50%;
+  padding: 4px;
+  background-color: #001F3F;
+  color: #fff;
+}/*# sourceMappingURL=addtime2.css.map */

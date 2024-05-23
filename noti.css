@@ -1,0 +1,21 @@
+.one {
+    width: 171px;
+    height: 40px;
+    top: 30px;
+    left: 893px;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px 1px 1px 1px;
+    opacity: 0px;
+  }
+  
+  .two {
+    width: 171px;
+    height: 40px;
+    top: 30px;
+    left: 1080px;
+    padding: 0px 16px 0px 24px;
+    gap: 8px;
+    border-radius: 5px;
+    opacity: 0px;
+    background-color: #001F3F;
+  }/*# sourceMappingURL=home.css.map */
